@@ -22,6 +22,7 @@ public class SmokeTests{
 		
 		WebDriver driver = new SafariDriver(); 		// Launch Website 
 		// i dont want learn git commands
+		// this is tuff
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/"); 
 		driver.manage().window().maximize();
 		WebElement username = driver.findElement(By.name("txtUsername"));
