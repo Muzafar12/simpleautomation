@@ -21,6 +21,7 @@ public class SmokeTests{
 		TestScreenRecorder.startRecording("navigationTest"); 
 		
 		WebDriver driver = new SafariDriver(); 		// Launch Website 
+		// i dont want learn git commands
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/"); 
 		driver.manage().window().maximize();
 		WebElement username = driver.findElement(By.name("txtUsername"));
